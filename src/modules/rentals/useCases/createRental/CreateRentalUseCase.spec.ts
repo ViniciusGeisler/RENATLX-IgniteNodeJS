@@ -22,8 +22,6 @@ describe("Create Rental", () => {
             car_id: "121212",
             expected_return_date: dayAdd24Hours,
         });
-
-        console.log(rental);
         
         expect(rental).toHaveProperty("id");
         expect(rental).toHaveProperty("start_date");
