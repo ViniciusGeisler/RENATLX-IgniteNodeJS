@@ -36,6 +36,7 @@
     "typescript": "^4.3.5"
   },
   "dependencies": {
+    "aws-sdk": "^2.1296.0",
     "bcryptjs": "^2.4.3",
     "csv-parse": "^5.0.4",
     "dayjs": "^1.11.7",
