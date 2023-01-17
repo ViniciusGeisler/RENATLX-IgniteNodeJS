@@ -21,7 +21,6 @@ class S3StorageProvider implements IStorageProvider {
     const fileContent = await fs.promises.readFile(originalName);
 
     const ContentType = mime.getType(originalName);
-    console.log(process.env.AWS_BUCKET, `tete`);
     
     await this.client.putObject({
       Bucket: `${process.env.AWS_BUCKET}/${folder}`,
